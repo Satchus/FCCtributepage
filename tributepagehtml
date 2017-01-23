@@ -1,0 +1,137 @@
+<html>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<!-- Fonts End -->
+<!-- original color #274fad -->
+<style>
+  body {
+    background-color: #d2d5db;
+    Font-family: slabo , monospace;
+    background-image: url("http://i.imgur.com/1PT3Cw4.jpg");
+    
+  }
+  
+  .text {
+    text-align: center;
+    text-style: solid;
+    color: white;
+    
+  }
+
+  .textAcme {
+    text-align: center;
+    text-style: solid;
+    color: white;
+    font-family: Acme , monospace;
+  }
+  
+  #personal-info {
+    text-align: left;
+    text-style: solid;
+    color: white;
+    margin: auto;
+  }
+  
+  #merits {
+    text-align: center;
+    text-style: solid;
+    color: white;
+    margin: auto;
+  }
+  
+  .img {
+    display: block;
+    margin: auto;
+    padding: auto;
+     
+  }
+  
+  .img-align-center {    
+    display: block;
+    margin: auto;
+      }
+  
+  .smaller-image {
+    width: 400px;
+    height: 250px
+  }
+  
+   .smaller-image2 {
+    width: 500px;
+    height: 350px;
+      padding: 0%;
+  }
+  
+  .img-border {
+    border-color: black;
+      border-width: 4px;
+    border-style: inset;  
+  }
+  
+  caption {
+    caption-side: bottom;
+}
+  #whiteTxt {
+    color: white;
+  }
+</style>
+<!-- CSS End -->
+<!-- page -->
+<body>
+  <div class="container">
+    <div class="page-header">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="textAcme">Picard, Jean-Luc</h1>
+          <h3 class="text">Starfleet Captain</h3>
+        </div>
+        <!-- -->
+        <div class=row>
+          <ul class="col-xs-4" id="personal-info">Personal info:
+            <li>Name: Jean-Luc Picard</li>
+            <li>Rank: Captain</li>
+            <li>Current assignment: Commander, U.S.S. Enterprise NCC-1701-E</li>
+            <li>Date of birth: July 13, 2305</li>
+            <li>Place of birth: Labarre, France, Earth</li>
+            <li>Parents: Maurice and Yvette Picard</li>
+            <li>Education: Starfleet Academy, 2323-27</li>
+            <li>Marital status: Single</li>
+            <li>Children: None</li>
+            <li>Quarters: Formerly, Enterprise: Deck 9, Room 3601</li>
+            <li>Office: Enterprise: Deck 1 Ready Room, adjoining Main Bridge</li>
+          </ul>
+              <img class="col-xs-6 smaller-image2" src="http://i.imgur.com/YFllE0R.jpg" title="Picard, Jean-Luc" alt="Picard" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Merits section-->
+<div class="container">
+    <h2 class="textAcme">Starfleet Career Summary:</h2>
+    <img class="img-align-center smaller-image" src="http://imgur.com/ovxRRFy.jpg" title="NCC-1701-D" alt="Enterprise D" />
+    <br></br>
+    <div class="container">
+      <ul class="col-xs-12" id="merits">
+        <li>2333 - Assigned as commander and first officer on U.S.S. Stargazer, later promoted to captain after death of his superior in battle</li>
+        <li>2355 - Forced to abandon Stargazer after encounter with then-unknown Ferengi, with few casualties</li>
+        <li>2356 - Cleared of negligence in Stargazer loss by routine inquiry</li>
+        <li>2363 - Chosen to command relatively new Galaxy-class U.S.S. Enterprise-D</li>
+        <li>2364 - Offered but turned down promotion to admiral as commandant of Starfleet Academyf</li>
+        <li>2366-7 - Declared missing in action during Borg invasion, later rescued from assimilation and returned to Enterprise command</li>
+        <li>2369 - Assigned to covert raid and captured by Cardassians on Celtris III, later returned toEnterprise command</li>
+        <li>2371 - Lost Enterprise-D at Veridian III while opposing El-Aurian scientist Tolian Soran</li>
+        <li>2372 - Chosen to command relatively new Sovereign-class U.S.S. Enterprise-E, SD 49827.5</li>
+        <li>2373 - Deflected Borg invasion of Earth; risked further contamination to restore Borg temporal sabotage of human first contact</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <br></br>
+  <h4 class="text-center" id=whiteTxt> If you want to know more about Capt. Picard and star trek. Visit <a href="http://www.startrek.com/"> startrek.com</a> for more info.</h4>
+  <br></br>
+  <br></br>
+  <p class="text-center" id=whiteTxt> Written and coded by: Espen Johnsen "This tribute page is not endorsed, sponsored or affiliated with CBS Studios Inc. or the Star Trek franchise. All STAR TREK trademarks and logos are owned by CBS Studios Inc."</p>
+</body>
+</html>
